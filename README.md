@@ -30,8 +30,7 @@ To get started with this repository:
 
 ## Contributions
 
-Contributions to this repository are welcome! If you have a new SQL question to add or if you've identified improvements to existing solutions, feel free to submit a pull request. Please follow the contribution guidelines outlined in the CONTRIBUTING.md file.
-
+Contributions to this repository are welcome! If you have a new SQL question to add or if you've identified improvements to existing solutions, feel free to submit a pull request. 
 ## Disclaimer
 
 The solutions provided in this repository are intended for educational purposes. While we strive for accuracy and efficiency, there may be alternative solutions or optimizations not covered in this repository. Use these solutions as a reference and aim to understand the underlying SQL concepts.
