@@ -1,0 +1,8 @@
+WITH cte AS (SELECT person_name, weight,
+SUM(weight) OVER(ORDER BY turn ASC ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS sum
+FROM Queue)
+
+SELECT person_name
+FROM cte
+WHERE sum <= 1000
+ORDER BY SUM DESC LIMIT 1;
